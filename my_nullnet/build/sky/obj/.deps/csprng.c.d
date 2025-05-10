@@ -1,70 +1,77 @@
-build/sky/obj/csprng.o: ../../os/lib/csprng.c ../../os/lib/csprng.h \
- ../../os/contiki.h ../../arch/platform/sky/./contiki-conf.h \
- ../../arch/platform/sky/./sky-def.h ../../arch/cpu/msp430/./msp430-def.h \
- ../../arch/cpu/msp430/./msp430-conf.h ../../os/contiki-default-conf.h \
- ../../os/sys/process.h ../../os/sys/pt.h ../../os/sys/lc.h \
- ../../os/sys/lc-switch.h ../../os/sys/cc.h ../../os/sys/autostart.h \
- ../../os/sys/process.h ../../os/sys/timer.h ../../os/sys/clock.h \
- ../../os/sys/ctimer.h ../../os/sys/etimer.h ../../os/sys/etimer.h \
- ../../os/sys/rtimer.h ../../os/dev/watchdog.h \
- ../../arch/cpu/msp430/./rtimer-arch.h ../../os/sys/rtimer.h \
- ../../os/sys/pt.h ../../os/sys/clock.h ../../os/lib/aes-128.h \
- ../../os/sys/log.h ../../os/net/linkaddr.h ../../os/sys/log-conf.h
+build/sky/obj/csprng.o: ../../contiki-ng/os/lib/csprng.c \
+ ../../contiki-ng/os/lib/csprng.h ../../contiki-ng/os/contiki.h \
+ ../../contiki-ng/arch/platform/sky/./contiki-conf.h \
+ ../../contiki-ng/arch/platform/sky/./sky-def.h \
+ ../../contiki-ng/arch/cpu/msp430/./msp430-def.h \
+ ../../contiki-ng/arch/cpu/msp430/./msp430-conf.h \
+ ../../contiki-ng/os/contiki-default-conf.h \
+ ../../contiki-ng/os/sys/process.h ../../contiki-ng/os/sys/pt.h \
+ ../../contiki-ng/os/sys/lc.h ../../contiki-ng/os/sys/lc-switch.h \
+ ../../contiki-ng/os/sys/cc.h ../../contiki-ng/os/sys/autostart.h \
+ ../../contiki-ng/os/sys/process.h ../../contiki-ng/os/sys/timer.h \
+ ../../contiki-ng/os/sys/clock.h ../../contiki-ng/os/sys/ctimer.h \
+ ../../contiki-ng/os/sys/etimer.h ../../contiki-ng/os/sys/etimer.h \
+ ../../contiki-ng/os/sys/rtimer.h ../../contiki-ng/os/dev/watchdog.h \
+ ../../contiki-ng/arch/cpu/msp430/./rtimer-arch.h \
+ ../../contiki-ng/os/sys/rtimer.h ../../contiki-ng/os/sys/pt.h \
+ ../../contiki-ng/os/sys/clock.h ../../contiki-ng/os/lib/aes-128.h \
+ ../../contiki-ng/os/sys/log.h ../../contiki-ng/os/net/linkaddr.h \
+ ../../contiki-ng/os/sys/log-conf.h
 
-../../os/lib/csprng.h:
+../../contiki-ng/os/lib/csprng.h:
 
-../../os/contiki.h:
+../../contiki-ng/os/contiki.h:
 
-../../arch/platform/sky/./contiki-conf.h:
+../../contiki-ng/arch/platform/sky/./contiki-conf.h:
 
-../../arch/platform/sky/./sky-def.h:
+../../contiki-ng/arch/platform/sky/./sky-def.h:
 
-../../arch/cpu/msp430/./msp430-def.h:
+../../contiki-ng/arch/cpu/msp430/./msp430-def.h:
 
-../../arch/cpu/msp430/./msp430-conf.h:
+../../contiki-ng/arch/cpu/msp430/./msp430-conf.h:
 
-../../os/contiki-default-conf.h:
+../../contiki-ng/os/contiki-default-conf.h:
 
-../../os/sys/process.h:
+../../contiki-ng/os/sys/process.h:
 
-../../os/sys/pt.h:
+../../contiki-ng/os/sys/pt.h:
 
-../../os/sys/lc.h:
+../../contiki-ng/os/sys/lc.h:
 
-../../os/sys/lc-switch.h:
+../../contiki-ng/os/sys/lc-switch.h:
 
-../../os/sys/cc.h:
+../../contiki-ng/os/sys/cc.h:
 
-../../os/sys/autostart.h:
+../../contiki-ng/os/sys/autostart.h:
 
-../../os/sys/process.h:
+../../contiki-ng/os/sys/process.h:
 
-../../os/sys/timer.h:
+../../contiki-ng/os/sys/timer.h:
 
-../../os/sys/clock.h:
+../../contiki-ng/os/sys/clock.h:
 
-../../os/sys/ctimer.h:
+../../contiki-ng/os/sys/ctimer.h:
 
-../../os/sys/etimer.h:
+../../contiki-ng/os/sys/etimer.h:
 
-../../os/sys/etimer.h:
+../../contiki-ng/os/sys/etimer.h:
 
-../../os/sys/rtimer.h:
+../../contiki-ng/os/sys/rtimer.h:
 
-../../os/dev/watchdog.h:
+../../contiki-ng/os/dev/watchdog.h:
 
-../../arch/cpu/msp430/./rtimer-arch.h:
+../../contiki-ng/arch/cpu/msp430/./rtimer-arch.h:
 
-../../os/sys/rtimer.h:
+../../contiki-ng/os/sys/rtimer.h:
 
-../../os/sys/pt.h:
+../../contiki-ng/os/sys/pt.h:
 
-../../os/sys/clock.h:
+../../contiki-ng/os/sys/clock.h:
 
-../../os/lib/aes-128.h:
+../../contiki-ng/os/lib/aes-128.h:
 
-../../os/sys/log.h:
+../../contiki-ng/os/sys/log.h:
 
-../../os/net/linkaddr.h:
+../../contiki-ng/os/net/linkaddr.h:
 
-../../os/sys/log-conf.h:
+../../contiki-ng/os/sys/log-conf.h:

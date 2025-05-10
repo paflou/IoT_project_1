@@ -1,41 +1,37 @@
-build/native/obj/dbl-circ-list.o: \
- ../../iot/contiki-ng/os/lib/dbl-circ-list.c \
- ../../iot/contiki-ng/os/contiki.h \
- ../../iot/contiki-ng/arch/platform/native/./contiki-conf.h \
- ../../iot/contiki-ng/arch/cpu/native/./native-def.h \
- ../../iot/contiki-ng/os/contiki-default-conf.h \
- ../../iot/contiki-ng/os/sys/process.h ../../iot/contiki-ng/os/sys/pt.h \
- ../../iot/contiki-ng/os/sys/lc.h ../../iot/contiki-ng/os/sys/lc-switch.h \
- ../../iot/contiki-ng/os/sys/cc.h ../../iot/contiki-ng/os/sys/autostart.h \
- ../../iot/contiki-ng/os/sys/process.h \
- ../../iot/contiki-ng/os/sys/timer.h ../../iot/contiki-ng/os/sys/clock.h \
- ../../iot/contiki-ng/os/sys/ctimer.h \
- ../../iot/contiki-ng/os/sys/etimer.h \
- ../../iot/contiki-ng/os/sys/etimer.h \
- ../../iot/contiki-ng/os/sys/rtimer.h \
- ../../iot/contiki-ng/os/dev/watchdog.h \
- ../../iot/contiki-ng/arch/cpu/native/./rtimer-arch.h \
- ../../iot/contiki-ng/os/sys/pt.h ../../iot/contiki-ng/os/sys/clock.h \
- ../../iot/contiki-ng/os/lib/dbl-circ-list.h
-../../iot/contiki-ng/os/contiki.h:
-../../iot/contiki-ng/arch/platform/native/./contiki-conf.h:
-../../iot/contiki-ng/arch/cpu/native/./native-def.h:
-../../iot/contiki-ng/os/contiki-default-conf.h:
-../../iot/contiki-ng/os/sys/process.h:
-../../iot/contiki-ng/os/sys/pt.h:
-../../iot/contiki-ng/os/sys/lc.h:
-../../iot/contiki-ng/os/sys/lc-switch.h:
-../../iot/contiki-ng/os/sys/cc.h:
-../../iot/contiki-ng/os/sys/autostart.h:
-../../iot/contiki-ng/os/sys/process.h:
-../../iot/contiki-ng/os/sys/timer.h:
-../../iot/contiki-ng/os/sys/clock.h:
-../../iot/contiki-ng/os/sys/ctimer.h:
-../../iot/contiki-ng/os/sys/etimer.h:
-../../iot/contiki-ng/os/sys/etimer.h:
-../../iot/contiki-ng/os/sys/rtimer.h:
-../../iot/contiki-ng/os/dev/watchdog.h:
-../../iot/contiki-ng/arch/cpu/native/./rtimer-arch.h:
-../../iot/contiki-ng/os/sys/pt.h:
-../../iot/contiki-ng/os/sys/clock.h:
-../../iot/contiki-ng/os/lib/dbl-circ-list.h:
+build/native/obj/dbl-circ-list.o: ../../contiki-ng/os/lib/dbl-circ-list.c \
+ ../../contiki-ng/os/contiki.h \
+ ../../contiki-ng/arch/platform/native/./contiki-conf.h \
+ ../../contiki-ng/arch/cpu/native/./native-def.h \
+ ../../contiki-ng/os/contiki-default-conf.h \
+ ../../contiki-ng/os/sys/process.h ../../contiki-ng/os/sys/pt.h \
+ ../../contiki-ng/os/sys/lc.h ../../contiki-ng/os/sys/lc-switch.h \
+ ../../contiki-ng/os/sys/cc.h ../../contiki-ng/os/sys/autostart.h \
+ ../../contiki-ng/os/sys/process.h ../../contiki-ng/os/sys/timer.h \
+ ../../contiki-ng/os/sys/clock.h ../../contiki-ng/os/sys/ctimer.h \
+ ../../contiki-ng/os/sys/etimer.h ../../contiki-ng/os/sys/etimer.h \
+ ../../contiki-ng/os/sys/rtimer.h ../../contiki-ng/os/dev/watchdog.h \
+ ../../contiki-ng/arch/cpu/native/./rtimer-arch.h \
+ ../../contiki-ng/os/sys/pt.h ../../contiki-ng/os/sys/clock.h \
+ ../../contiki-ng/os/lib/dbl-circ-list.h
+../../contiki-ng/os/contiki.h:
+../../contiki-ng/arch/platform/native/./contiki-conf.h:
+../../contiki-ng/arch/cpu/native/./native-def.h:
+../../contiki-ng/os/contiki-default-conf.h:
+../../contiki-ng/os/sys/process.h:
+../../contiki-ng/os/sys/pt.h:
+../../contiki-ng/os/sys/lc.h:
+../../contiki-ng/os/sys/lc-switch.h:
+../../contiki-ng/os/sys/cc.h:
+../../contiki-ng/os/sys/autostart.h:
+../../contiki-ng/os/sys/process.h:
+../../contiki-ng/os/sys/timer.h:
+../../contiki-ng/os/sys/clock.h:
+../../contiki-ng/os/sys/ctimer.h:
+../../contiki-ng/os/sys/etimer.h:
+../../contiki-ng/os/sys/etimer.h:
+../../contiki-ng/os/sys/rtimer.h:
+../../contiki-ng/os/dev/watchdog.h:
+../../contiki-ng/arch/cpu/native/./rtimer-arch.h:
+../../contiki-ng/os/sys/pt.h:
+../../contiki-ng/os/sys/clock.h:
+../../contiki-ng/os/lib/dbl-circ-list.h:

@@ -1,3 +1,3 @@
-build/native/obj/cbor.o: ../../iot/contiki-ng/os/lib/cbor.c \
- ../../iot/contiki-ng/os/lib/cbor.h
-../../iot/contiki-ng/os/lib/cbor.h:
+build/native/obj/cbor.o: ../../contiki-ng/os/lib/cbor.c \
+ ../../contiki-ng/os/lib/cbor.h
+../../contiki-ng/os/lib/cbor.h:

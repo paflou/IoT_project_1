@@ -1,96 +1,107 @@
-build/sky/obj/framer-802154.o: ../../os/net/mac/framer/framer-802154.c \
- ../../os/net/mac/framer/framer-802154.h ../../os/net/packetbuf.h \
- ../../os/contiki.h ../../arch/platform/sky/./contiki-conf.h \
- ../../arch/platform/sky/./sky-def.h ../../arch/cpu/msp430/./msp430-def.h \
- ../../arch/cpu/msp430/./msp430-conf.h ../../os/contiki-default-conf.h \
- ../../os/sys/process.h ../../os/sys/pt.h ../../os/sys/lc.h \
- ../../os/sys/lc-switch.h ../../os/sys/cc.h ../../os/sys/autostart.h \
- ../../os/sys/process.h ../../os/sys/timer.h ../../os/sys/clock.h \
- ../../os/sys/ctimer.h ../../os/sys/etimer.h ../../os/sys/etimer.h \
- ../../os/sys/rtimer.h ../../os/dev/watchdog.h \
- ../../arch/cpu/msp430/./rtimer-arch.h ../../os/sys/rtimer.h \
- ../../os/sys/pt.h ../../os/sys/clock.h ../../os/net/linkaddr.h \
- ../../os/net/mac/llsec802154.h ../../os/net/mac/framer/frame802154.h \
- ../../os/net/ipv6/uip.h ../../os/net/ipv6/uipopt.h \
- ../../os/net/ipv6/uipbuf.h ../../os/net/ipv6/tcpip.h \
- ../../os/net/mac/csma/csma-security.h ../../os/net/mac/framer/framer.h \
- ../../os/net/mac/tsch/tsch-conf.h ../../os/lib/random.h \
- ../../os/sys/log.h ../../os/sys/log-conf.h
+build/sky/obj/framer-802154.o: \
+ ../../contiki-ng/os/net/mac/framer/framer-802154.c \
+ ../../contiki-ng/os/net/mac/framer/framer-802154.h \
+ ../../contiki-ng/os/net/packetbuf.h ../../contiki-ng/os/contiki.h \
+ ../../contiki-ng/arch/platform/sky/./contiki-conf.h \
+ ../../contiki-ng/arch/platform/sky/./sky-def.h \
+ ../../contiki-ng/arch/cpu/msp430/./msp430-def.h \
+ ../../contiki-ng/arch/cpu/msp430/./msp430-conf.h \
+ ../../contiki-ng/os/contiki-default-conf.h \
+ ../../contiki-ng/os/sys/process.h ../../contiki-ng/os/sys/pt.h \
+ ../../contiki-ng/os/sys/lc.h ../../contiki-ng/os/sys/lc-switch.h \
+ ../../contiki-ng/os/sys/cc.h ../../contiki-ng/os/sys/autostart.h \
+ ../../contiki-ng/os/sys/process.h ../../contiki-ng/os/sys/timer.h \
+ ../../contiki-ng/os/sys/clock.h ../../contiki-ng/os/sys/ctimer.h \
+ ../../contiki-ng/os/sys/etimer.h ../../contiki-ng/os/sys/etimer.h \
+ ../../contiki-ng/os/sys/rtimer.h ../../contiki-ng/os/dev/watchdog.h \
+ ../../contiki-ng/arch/cpu/msp430/./rtimer-arch.h \
+ ../../contiki-ng/os/sys/rtimer.h ../../contiki-ng/os/sys/pt.h \
+ ../../contiki-ng/os/sys/clock.h ../../contiki-ng/os/net/linkaddr.h \
+ ../../contiki-ng/os/net/mac/llsec802154.h \
+ ../../contiki-ng/os/net/mac/framer/frame802154.h \
+ ../../contiki-ng/os/net/ipv6/uip.h ../../contiki-ng/os/net/ipv6/uipopt.h \
+ ../../contiki-ng/os/net/ipv6/uipbuf.h \
+ ../../contiki-ng/os/net/ipv6/tcpip.h \
+ ../../contiki-ng/os/net/mac/csma/csma-security.h \
+ ../../contiki-ng/os/net/mac/framer/framer.h \
+ ../../contiki-ng/os/net/mac/tsch/tsch-conf.h \
+ ../../contiki-ng/os/lib/random.h ../../contiki-ng/os/sys/log.h \
+ ../../contiki-ng/os/sys/log-conf.h
 
-../../os/net/mac/framer/framer-802154.h:
+../../contiki-ng/os/net/mac/framer/framer-802154.h:
 
-../../os/net/packetbuf.h:
+../../contiki-ng/os/net/packetbuf.h:
 
-../../os/contiki.h:
+../../contiki-ng/os/contiki.h:
 
-../../arch/platform/sky/./contiki-conf.h:
+../../contiki-ng/arch/platform/sky/./contiki-conf.h:
 
-../../arch/platform/sky/./sky-def.h:
+../../contiki-ng/arch/platform/sky/./sky-def.h:
 
-../../arch/cpu/msp430/./msp430-def.h:
+../../contiki-ng/arch/cpu/msp430/./msp430-def.h:
 
-../../arch/cpu/msp430/./msp430-conf.h:
+../../contiki-ng/arch/cpu/msp430/./msp430-conf.h:
 
-../../os/contiki-default-conf.h:
+../../contiki-ng/os/contiki-default-conf.h:
 
-../../os/sys/process.h:
+../../contiki-ng/os/sys/process.h:
 
-../../os/sys/pt.h:
+../../contiki-ng/os/sys/pt.h:
 
-../../os/sys/lc.h:
+../../contiki-ng/os/sys/lc.h:
 
-../../os/sys/lc-switch.h:
+../../contiki-ng/os/sys/lc-switch.h:
 
-../../os/sys/cc.h:
+../../contiki-ng/os/sys/cc.h:
 
-../../os/sys/autostart.h:
+../../contiki-ng/os/sys/autostart.h:
 
-../../os/sys/process.h:
+../../contiki-ng/os/sys/process.h:
 
-../../os/sys/timer.h:
+../../contiki-ng/os/sys/timer.h:
 
-../../os/sys/clock.h:
+../../contiki-ng/os/sys/clock.h:
 
-../../os/sys/ctimer.h:
+../../contiki-ng/os/sys/ctimer.h:
 
-../../os/sys/etimer.h:
+../../contiki-ng/os/sys/etimer.h:
 
-../../os/sys/etimer.h:
+../../contiki-ng/os/sys/etimer.h:
 
-../../os/sys/rtimer.h:
+../../contiki-ng/os/sys/rtimer.h:
 
-../../os/dev/watchdog.h:
+../../contiki-ng/os/dev/watchdog.h:
 
-../../arch/cpu/msp430/./rtimer-arch.h:
+../../contiki-ng/arch/cpu/msp430/./rtimer-arch.h:
 
-../../os/sys/rtimer.h:
+../../contiki-ng/os/sys/rtimer.h:
 
-../../os/sys/pt.h:
+../../contiki-ng/os/sys/pt.h:
 
-../../os/sys/clock.h:
+../../contiki-ng/os/sys/clock.h:
 
-../../os/net/linkaddr.h:
+../../contiki-ng/os/net/linkaddr.h:
 
-../../os/net/mac/llsec802154.h:
+../../contiki-ng/os/net/mac/llsec802154.h:
 
-../../os/net/mac/framer/frame802154.h:
+../../contiki-ng/os/net/mac/framer/frame802154.h:
 
-../../os/net/ipv6/uip.h:
+../../contiki-ng/os/net/ipv6/uip.h:
 
-../../os/net/ipv6/uipopt.h:
+../../contiki-ng/os/net/ipv6/uipopt.h:
 
-../../os/net/ipv6/uipbuf.h:
+../../contiki-ng/os/net/ipv6/uipbuf.h:
 
-../../os/net/ipv6/tcpip.h:
+../../contiki-ng/os/net/ipv6/tcpip.h:
 
-../../os/net/mac/csma/csma-security.h:
+../../contiki-ng/os/net/mac/csma/csma-security.h:
 
-../../os/net/mac/framer/framer.h:
+../../contiki-ng/os/net/mac/framer/framer.h:
 
-../../os/net/mac/tsch/tsch-conf.h:
+../../contiki-ng/os/net/mac/tsch/tsch-conf.h:
 
-../../os/lib/random.h:
+../../contiki-ng/os/lib/random.h:
 
-../../os/sys/log.h:
+../../contiki-ng/os/sys/log.h:
 
-../../os/sys/log-conf.h:
+../../contiki-ng/os/sys/log-conf.h:
