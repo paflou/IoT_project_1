@@ -19,7 +19,7 @@ build/sky/obj/nullnet-broadcast.o: nullnet-broadcast.c \
  ../../contiki-ng/os/net/mac/framer/framer.h \
  ../../contiki-ng/os/net/linkaddr.h \
  ../../contiki-ng/os/net/nullnet/nullnet.h ../../contiki-ng/os/sys/log.h \
- ../../contiki-ng/os/sys/log-conf.h
+ ../../contiki-ng/os/sys/log-conf.h utils.h
 
 ../../contiki-ng/os/contiki.h:
 
@@ -84,3 +84,5 @@ build/sky/obj/nullnet-broadcast.o: nullnet-broadcast.c \
 ../../contiki-ng/os/sys/log.h:
 
 ../../contiki-ng/os/sys/log-conf.h:
+
+utils.h:
