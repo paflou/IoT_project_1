@@ -23,7 +23,7 @@ static linkaddr_t coordinator_addr =  {{ 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0
 static linkaddr_t leaf_node[255];
 struct data_form form = {-1, -1, -1.0, -1.0};
 int count = 0;
-char temp[32], hum[32];
+char temp[8], hum[8];
 
 /*---------------------------------------------------------------------------*/
 PROCESS(nullnet_example_process, "NullNet broadcast example");

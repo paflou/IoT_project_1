@@ -96,8 +96,8 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
       form.temp = temperature_int2double(sht11_sensor.value(SHT11_SENSOR_TEMP));
       form.hum = humidity_int2double(sht11_sensor.value(SHT11_SENSOR_HUMIDITY));
       
-      char temp[32];
-      char hum[32];
+      char temp[8];
+      char hum[8];
       
       double2str(temp, form.temp);
       double2str(hum, form.hum);
