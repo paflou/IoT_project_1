@@ -3,3 +3,4 @@ serialdump*
 venv
 tmp
 .env
+.vscode
