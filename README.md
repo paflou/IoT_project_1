@@ -2,6 +2,7 @@
 
 This project implements a wireless sensor network using Contiki-NG's NullNet protocol. It consists of a parent node that collects temperature and humidity data from multiple leaf nodes, which then gets stored in a MongoDB database in Atlas Cloud.
 
+[Data](https://charts.mongodb.com/charts-project-0-bvzczvh/public/dashboards/6823453d-7c58-44cd-8408-790283991890)
 ## System Architecture
 
 The system is composed of:
