@@ -134,3 +134,12 @@ The MongoDB collection stores this data along with a timestamp.
 - If devices are not connecting, check that they are within wireless range
 - Verify that the MongoDB connection string is correct in the `.env` file
 - Ensure the named pipe exists and has the correct permissions
+
+
+# Notebooks
+
+Each notebook focuses on a specific data granularity, resampling raw data accordingly and applying the forecasting models.
+
+-   **`hourly.ipynb`**: Resamples data to **hourly** frequency and applies ARIMA, SARIMA, LSTM, and RNN.
+-   **`bi_hourly.ipynb`**: Resamples data to **bi-hourly** frequency and applies ARIMA, SARIMA, LSTM, and RNN.
+-   **`four_hourly.ipynb`**: Resamples data to **four-hourly** frequency and applies ARIMA, SARIMA, LSTM, and RNN.
